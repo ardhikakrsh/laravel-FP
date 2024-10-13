@@ -3,7 +3,6 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use App\Enums\RolesType;
 
 return new class extends Migration
 {
@@ -12,12 +11,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('pembayaran', function (Blueprint $table) {
             $table->id();
-            $table->string('nama', 255);
-            $table->string('email', 255)->unique();
-            $table->string('password', 255);
-            $table->enum('role', RolesType::getValues())->default(RolesType::user->value);
+            $table->string('metode_pembayaran', 15);
+            $table->integer('jumlah_pembayaran');
+            $table->string('bukti_pembayaran', 255);
+            $table->foreignId('pembelian_id')->constrained('pembelian')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('pembayaran');
     }
 };
