@@ -72,9 +72,7 @@
 </head>
 
 <body class="h-full">
-    @auth 
         @yield('auth')
-    @endauth
     @guest
         @yield('guest')
     @endguest

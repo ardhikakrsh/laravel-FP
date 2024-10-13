@@ -1,5 +1,5 @@
 <!-- resources/views/mahasiswa/edit.blade.php -->
-@extends('layouts.app')
+@extends('layouts.userAuth.auth')
 
 @section('content')
 <div class="container">
