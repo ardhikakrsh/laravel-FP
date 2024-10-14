@@ -1,6 +1,6 @@
 @extends('layouts.userAuth.auth')
 
-@section('title', 'Edit Barang')
+@section('title', 'View Barang')
 
 @section('content')
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg max-w-6xl mx-auto"> 
@@ -42,8 +42,7 @@
                     </div>                    
                 </div>
                 <div class="flex justify-end mt-6 space-x-2"> 
-                    <a href="{{ route('barang.index') }}" class="w-20 text-sm font-medium text-white bg-gray-400 rounded-lg hover:bg-gray-500 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800 text-center py-2">Back</a>
-                    <button type="submit" class="w-20 text-sm font-medium text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 text-center py-2">Update</button>
+                    <a href="{{ route('barang.index') }}" class="w-20 text-sm font-medium text-white bg-gray-400 rounded-lg hover:bg-gray-500 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800 text-center py-2">Kembali</a>
                 </div>                
             </form>
         </div>
