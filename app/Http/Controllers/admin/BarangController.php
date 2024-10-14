@@ -54,7 +54,7 @@ class BarangController extends Controller
     }
 
     public function update (Request $request, Barang $barang){
-        $validated->$request->validate([
+        $validated = $request->validate([
             'nama' => 'required|max:255',
             'harga' => 'required|numeric',
             'ukuran' => 'required|numeric',
@@ -73,7 +73,7 @@ class BarangController extends Controller
         try {
             $barang->update($validated);
             DB::commit();
-            return redirect()->route('Admin.Barang.index')->with('success', 'Product successfully updated');
+            return redirect()->route('barang.index')->with('success', 'Product successfully updated');
         } catch (\Exception $e) {
             DB::rollback();
             return redirect()->back()->with('error', 'Product update failed');         

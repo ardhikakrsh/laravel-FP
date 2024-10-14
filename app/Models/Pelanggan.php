@@ -11,7 +11,7 @@ class Pelanggan extends Model
     protected $fillable = [
         'NIK', 
         'nomor_telepon', 
-        'user_id'
+        'users_id'
     ];
 
     public function user()
