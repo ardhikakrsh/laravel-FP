@@ -183,18 +183,18 @@
         </div>
     </section>
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">The Current Culture Marketplace</h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Our mission is to provide access to the world’s most coveted items in the smartest way possible. Buy and sell the hottest sneakers, apparel, electronics, collectibles, trading cards and accessories.</p>
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">The Current Culture Marketplace</h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48">Our mission is to provide access to the world’s most coveted items in the smartest way possible. Buy and sell the hottest sneakers, apparel, electronics, collectibles, trading cards and accessories.</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                <a href="{{ '/product' }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                <a href="{{ '/product' }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
                     Buy Now
                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
-                <a href="{{ '/product' }}" class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-70">
+                <a href="{{ '/product' }}" class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">
                     View more
                 </a>  
             </div>
@@ -216,51 +216,51 @@
         </div>
     </section>
     
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-      <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Frequently asked questions</h2>
-      <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+      <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900">Frequently asked questions</h2>
+      <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 md:grid-cols-2">
           <div>
               <div class="mb-10">
-                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
+                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       Are the sneakers on Sole City Kicks authentic?
                   </h3>
-                  <p class="text-gray-500 dark:text-gray-400">Yes, all sneakers sold on Sole City Kicks are 100% authentic. We source our products directly from trusted brands and authorized distributors to ensure quality and authenticity.</p>
+                  <p class="text-gray-500">Yes, all sneakers sold on Sole City Kicks are 100% authentic. We source our products directly from trusted brands and authorized distributors to ensure quality and authenticity.</p>
               </div>
               <div class="mb-10">                        
-                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
+                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       How can I place an order?
                   </h3>
-                  <p class="text-gray-500 dark:text-gray-400">To place an order, simply browse our collection, select your size, and add the item to your cart. Once you’re ready to checkout, follow the prompts to enter your shipping and payment information. After your order is confirmed, you’ll receive a confirmation email with your order details.</p>
+                  <p class="text-gray-500">To place an order, simply browse our collection, select your size, and add the item to your cart. Once you’re ready to checkout, follow the prompts to enter your shipping and payment information. After your order is confirmed, you’ll receive a confirmation email with your order details.</p>
               </div>
               <div class="mb-10">
-                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
+                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       How can I track my order?                  </h3>
-                  <p class="text-gray-500 dark:text-gray-400">Once your order ships, we’ll send you a tracking number via email. You can use this tracking number on the carrier’s website to follow the progress of your shipment.</p>
+                  <p class="text-gray-500">Once your order ships, we’ll send you a tracking number via email. You can use this tracking number on the carrier’s website to follow the progress of your shipment.</p>
               </div>
         
           </div>
           <div>
               <div class="mb-10">
-                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
+                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       What payment methods do you accept?</h3>
-                  <p class="text-gray-500 dark:text-gray-400">We accept a variety of payment methods, including major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay. All transactions are secure and encrypted for your safety.</p>
+                  <p class="text-gray-500">We accept a variety of payment methods, including major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay. All transactions are secure and encrypted for your safety.</p>
               </div>
               <div class="mb-10">
-                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
+                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       How long does shipping take?                  </h3>
-                  <p class="text-gray-500 dark:text-gray-400">Shipping times vary depending on your location. Typically, orders are processed within 1-3 business days, and standard shipping within the U.S. usually takes 3-7 business days. International shipping times may vary. You’ll receive tracking information as soon as your order ships.</p>
+                  <p class="text-gray-500">Shipping times vary depending on your location. Typically, orders are processed within 1-3 business days, and standard shipping within the U.S. usually takes 3-7 business days. International shipping times may vary. You’ll receive tracking information as soon as your order ships.</p>
               </div>
               <div class="mb-10">
-                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                  <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
+                      <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                       What should I do if I receive a damaged or incorrect item?                  </h3>
-                  <p class="text-gray-500 dark:text-gray-400">If you receive a damaged or incorrect item, please contact our customer service team as soon as possible. We’ll work with you to resolve the issue and ensure you receive the correct item or a refund.</p>
+                  <p class="text-gray-500">If you receive a damaged or incorrect item, please contact our customer service team as soon as possible. We’ll work with you to resolve the issue and ensure you receive the correct item or a refund.</p>
               </div>
           </div>
       </div>

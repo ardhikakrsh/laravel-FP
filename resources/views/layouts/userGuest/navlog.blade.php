@@ -1,7 +1,7 @@
-<nav class="fixed top-5 left-0 right-0 mx-auto bg-blur shadow-lg rounded-full z-50 max-w-screen-xl">
+<nav class="fixed top-5 left-0 right-0 mx-auto backdrop-blur-lg shadow-lg rounded-full z-50 max-w-screen-xl">
   <div class="container mx-auto px-8 py-2">
       <!-- Brand Name -->
-      <a href="/" class="text-l font-bold absolute text-black hover:text-indigo-800">SUPREMADU</a>
+      <a href="/" class="text-l font-bold absolute text-black hover:text-indigo-800">Sole City Kicks</a>
 
       <!-- Login and Sign Up Options -->
       <div class="flex space-x-6 justify-center">
