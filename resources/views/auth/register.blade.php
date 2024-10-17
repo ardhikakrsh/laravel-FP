@@ -1,10 +1,10 @@
 @extends('layouts.userGuest.guest')
 @section('title', 'Sign Up')
 @section('content')
-<section class="bg-gray-50 dark:bg-gray-900">
+<section class=" dark:bg-gray-900" style="background-image: url('/assets/img/slide1.jpg'); background-size: cover;">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-            <img class="w-8 h-8 mr-2" src="assets/img/logo.png" alt="logo">
+            <img class="w-8 h-8 mr-2" src="assets/img/logo2.png" alt="logo">
             Sole City Kicks    
         </a>
         <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
@@ -12,18 +12,36 @@
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                     Create an account
                 </h1>
-                <form class="space-y-4 md:space-y-6" action="#">
+                <form method="POST" class="space-y-4 md:space-y-6" action="{{ route('register') }}">
+                    @csrf
                     <div>
-                        <label for="nama" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Lengkap</label>
-                        <input type="nama" name="nama" id="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Nama Lengkap" required="">
+                        <x-input-label for="nama" :value="__('Name')" />
+                        <x-text-input id="nama" class="block mt-1 w-full" type="text" name="nama" :value="old('nama')" required autocomplete="off" />
+                        <x-input-error :messages="$errors->get('nama')" class="mt-2" />
                     </div>
-                    <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
-                        <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="supremadu@madu.com" required="">
+                    <div class="mt-4">
+                        <x-input-label for="email" :value="__('Email')" />
+                        <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="off" />
+                        <x-input-error :messages="$errors->get('email')" class="mt-2" />
                     </div>
-                    <div>
-                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
-                        <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+                    <div class="mt-4">
+                        <x-input-label for="password" :value="__('Password')" />
+            
+                        <x-text-input id="password" class="block mt-1 w-full"
+                                        type="password"
+                                        name="password"
+                                        required autocomplete="new-password" />
+            
+                        <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                    </div>
+                    <div class="mt-4">
+                        <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+            
+                        <x-text-input id="password_confirmation" class="block mt-1 w-full"
+                                        type="password"
+                                        name="password_confirmation" required autocomplete="new-password" />
+            
+                        <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                     </div>
                     <div class="flex items-start">
                         <div class="flex items-center h-5">
@@ -33,13 +51,14 @@
                           <label for="terms" class="font-light text-gray-500 dark:text-gray-300">I accept the <a class="font-medium text-indigo-600 hover:underline dark:text-primary-500" href="#">Terms and Conditions</a></label>
                         </div>
                     </div>
-                    <button type="submit" class="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Create an account</button>
-                    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                        Already have an account? <a href={{ route('login') }} class=" text-indigo-600 font-semibold hover:text-indigo-500 cursor-pointer">Login here</a>
-                    </p>
+                    <button type="submit" class="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">{{ __('Register') }}</button>
+                    <button type="submit" class="text-sm font-light text-gray-500 dark:text-gray-400">
+                        Already have an account? <a href={{ route('login') }} class=" text-indigo-600 font-semibold hover:text-indigo-500 cursor-pointer">Login</a>
+                    </button>
                 </form>
             </div>
         </div>
     </div>
   </section>
 @endsection
+
