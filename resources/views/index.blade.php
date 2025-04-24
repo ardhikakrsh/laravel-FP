@@ -8,7 +8,7 @@
             
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
             <div class="carousel-item absolute opacity-0" style="height:61vh;">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url('assets/img/slide1.jpg');">
+                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url('resources/assets/img/slide1.jpg');">
                 </div>
             </div>
             <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -17,7 +17,7 @@
             <!--Slide 2-->
             <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0 bg-cover bg-right" style="height:60vh;">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url('assets/img/slide3.jpg');">
+                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url('resources/assets/img/slide3.jpg');">
                 </div>
             </div>
             <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -26,7 +26,7 @@
             <!--Slide 3-->
             <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0" style="height:60vh;">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('assets/img/slide2.jpg');">
+                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('resources/assets/img/slide2.jpg');">
                 </div>
             </div>
             <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -79,7 +79,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/dunklowgrey.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/dunklowgrey.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Dunk Low Grey Frog</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -92,7 +92,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/dunklowVB.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/dunklowVB.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Dunk Low Valerian Blue</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -105,7 +105,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/dunklowgeorge.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/dunklowgeorge.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Dunk Low Georgetown</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -118,7 +118,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/aj1mocha.jpeg">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/aj1mocha.jpeg">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">AJ 1 High Dark Mocha</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -131,7 +131,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/hyperpink.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/hyperpink.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">GT Cut 2 Hyperpink</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -144,7 +144,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/kobe5undefeated.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/kobe5undefeated.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Kobe 5 Undefeated What If</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -157,7 +157,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/kobe8.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/kobe8.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Kobe 8 Protro Radiant Emerald</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -170,7 +170,7 @@
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="assets/img/kobe4philly.png">
+                    <img class="hover:grow hover:shadow-lg" src="resources/assets/img/kobe4philly.png">
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Kobe 4 Protro Philly</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
