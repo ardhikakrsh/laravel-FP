@@ -13,7 +13,7 @@
 
         <!-- Form -->
         <div class="p-8 bg-white rounded-tr-lg rounded-br-lg shadow w-full"> 
-            <h1 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Edit Product</h1>
+            <h1 class="text-2xl font-semibold text-gray-900 mb-6 text-center">View Product</h1>
             <form action="{{ route('barang.update', $barang->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
